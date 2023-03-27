@@ -5,12 +5,12 @@ export const QuestionsData = [
     correct: 0,
   },
   {
-    question: "What is the PM of India ?",
+    question: "Who is the PM of India ?",
     choice: ["Trump", "Obama", "Putin", "Modi"],
     correct: 3,
   },
   {
-    question: "What is the former Indian cricketer ?",
+    question: "Who is the former Indian cricketer ?",
     choice: ["Sehbag", "Virat", "Rohit", "Surya Kumar"],
     correct: 0,
   },

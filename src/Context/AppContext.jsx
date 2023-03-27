@@ -5,8 +5,8 @@ export const AppContext = React.createContext(null);
 export const AppContextProvider = ({ children }) => {
     const [score, setScore] = useState(0);
     const [time, setTime] = React.useState({
-        minutes: 0,
-        seconds: 5,
+        minutes: 1,
+        seconds: 0,
     });
     const [over, setOver] = useState(false)
     const handleOver = () => {
@@ -16,7 +16,7 @@ export const AppContextProvider = ({ children }) => {
 
     const [timeTaken, setTimeTaken] = useState({
         minutes: 0,
-        seconds: 5,
+        seconds: 60,
     })
 
 
