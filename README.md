@@ -1,1 +1,1 @@
-# seekho_quiz
+# Seekho quiz app
